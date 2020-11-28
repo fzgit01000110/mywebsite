@@ -1,0 +1,64 @@
+/*Tag Selector*/
+body{
+    margin: 0;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffe3d8;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #bbbbbb;
+}
+/*Class Selector*/
+.header{
+    background-color: #0a043c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page-title{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffe3d8;
+}
+
+.page-logo{
+    height: 128px;
+    width: 128px;
+}
+
+.content-row{
+    background-color: #03506f;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content-box{
+    text-align: center;
+    padding: 25px;
+}
+
+.circle-image{
+    height: 256px;
+    width: 256px;
+    border-radius: 50%;
+    border: 5px solid #bbbbbb;
+}
+
+.footer{
+    background-color: #0a043c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
